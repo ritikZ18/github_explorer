@@ -5,6 +5,124 @@ body {
   margin: 0px;
   background-color: #26272b;
 }
+
+
+
+
+#title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size:50px;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  animation: neon 2.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 5px #fff,
+  0 0 10px #ffb92c,
+  0 0 20px #ff00e7,
+  0 0 40px #1eff26,
+  0 0 80px #ff00e7,
+  0 0 90px #288cff,
+  0 0 100px #ff00e7;}
+
+
+  @keyframes neon {
+    0%, 100% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff00e7,
+                   0 0 20px #ff00e7,
+                   0 0 40px #ff00e7,
+                   0 0 80px #ff00e7,
+                   0 0 90px #ff00e7,
+                   0 0 100px #ff00e7;
+    }
+    10% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff00e7,
+                   0 0 20px #ff00e7,
+                   0 0 40px #ff00e7,
+                   0 0 80px #ff00e7,
+                   0 0 90px #ff00e7,
+                   0 0 100px #ff00e7;
+    }
+    20% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff0080,
+                   0 0 20px #ff0080,
+                   0 0 40px #ff0080,
+                   0 0 80px #ff0080,
+                   0 0 90px #ff0080,
+                   0 0 100px #ff0080;
+    }
+    30% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff0040,
+                   0 0 20px #ff0040,
+                   0 0 40px #ff0040,
+                   0 0 80px #ff0040,
+                   0 0 90px #ff0040,
+                   0 0 100px #ff0040;
+    }
+    40% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff8000,
+                   0 0 20px #ff8000,
+                   0 0 40px #ff8000,
+                   0 0 80px #ff8000,
+                   0 0 90px #ff8000,
+                   0 0 100px #ff8000;
+    }
+    50% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ffff00,
+                   0 0 20px #ffff00,
+                   0 0 40px #ffff00,
+                   0 0 80px #ffff00,
+                   0 0 90px #ffff00,
+                   0 0 100px #ffff00;
+    }
+    60% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #00ff00,
+                   0 0 20px #00ff00,
+                   0 0 40px #00ff00,
+                   0 0 80px #00ff00,
+                   0 0 90px #00ff00,
+                   0 0 100px #00ff00;
+    }
+    70% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #00ffff,
+                   0 0 20px #00ffff,
+                   0 0 40px #00ffff,
+                   0 0 80px #00ffff,
+                   0 0 90px #00ffff,
+                   0 0 100px #00ffff;
+    }
+    80% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #0080ff,
+                   0 0 20px #0080ff,
+                   0 0 40px #0080ff,
+                   0 0 80px #0080ff,
+                   0 0 90px #0080ff,
+                   0 0 100px #0080ff;
+    }
+    90% {
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #4000ff,
+                   0 0 20px #4000ff,
+                   0 0 40px #4000ff,
+                   0 0 80px #4000ff,
+                   0 0 90px #4000ff,
+                   0 0 100px #4000ff;
+    }
+  }
+
+
+
 .header {
   background-image: url("./src/explorer1.jpg");
   background-position: top center;
