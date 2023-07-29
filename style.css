@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   background-color: #26272b;
+   user-select:  none;
 }
 
 
@@ -372,6 +373,38 @@ a {
   background: #6672b4;
   border-radius: 10px;
 }
+
+
+
+
+.card {
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.list {
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid rgba(201, 47, 47, 0.1);
+  border-radius: 20px;
+}
+tr:hover {
+  background-color: #1f1919;
+border-radius: 200px;
+}
+
 
 /*   
 //REsponsive Design */
